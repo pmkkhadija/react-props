@@ -1,0 +1,144 @@
+.logo {
+    background: left / cover url('/media/examples/puppy-header-logo.jpg');
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+}
+
+header > input {
+    margin-bottom: 0;
+}
+
+header > p {
+    font: italic 0.7rem sans-serif;
+}
+nav {
+    border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+<body style="">
+<div id="home" class="animated fadeInUp" style="font-size: 63.0864px;">
+	hi. my name is <a href="#contact" class="scroll">tim</a>. im an awarded senior art director <a href="#work_wrapper" class="scroll">working</a> for jung von matt.
+</div>
+	<style>.cryptedmail:after { content: attr(data-name);}</style>
+<div id="contact" style="height: 616px;">
+	<h1 style="font-size: 140px;">
+    	you can contact me via 
+		<a href="#" class="cryptedmail" data-name="mail" data-domain="timbrack" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"></a>
+		   or <a href="https://www.linkedin.com/in/tim-brack-341285103" target="_blank">linkedin</a> or <a href="https://www.xing.com/profile/Tim_Brack" target="_blank">xing</a>.
+    </h1>
+    <!--img src="images/tim_brack.jpg"-->
+</div>
+
+<div id="work_wrapper">
+	
+    <div id="logo">
+    	<a href="#home" class="scroll animated fadeIn delay-1s">tim brack, art director</a>
+    </div>
+	
+    <div class="work" id="otto_sockenschwein" style="height: 616px;">
+    	<div class="credit">
+    		jung von matt
+   		</div>
+        <a href="otto_sockenschwein.html"><h2 style="font-size: 146.889px;">otto</h2></a>
+        <a href="otto_sockenschwein.html"><img src="images/otto_sockenschwein.jpg"></a>
+    </div>
+	
+	<div class="work" id="ewie_blitze" style="height: 616px;">
+    	<div class="credit">
+    		jung von matt
+   		</div>
+        <a href="ewie_blitze.html"><h1 style="font-size: 106.613px;">e wie<br>einfach</h1></a>
+        <a href="ewie_blitze.html"><img src="images/ewie_blitze.jpg"></a>
+    </div>
+    
+    <div class="work" id="sharenow_campaign" style="height: 616px;">
+    	<div class="credit">
+    		jung von matt
+   		</div>
+        <a href="sharenow_campaign.html"><h1 style="font-size: 106.613px;">share now</h1></a>
+        <a href="sharenow_campaign.html"><img src="images/teaser_sharenow_campaign.jpg"></a>
+    </div>
+   
+     <div class="work" id="sharenow_experiment" style="height: 616px;">
+    	<div class="credit">
+    		jung von matt
+   		</div>
+        <a href="sharenow_experiment.html"><h1 style="font-size: 106.613px;">share now</h1></a>
+        <a href="sharenow_experiment.html"><img src="images/teaser_sharenow_experiment.jpg"></a>
+    </div>
+    
+    <div class="work" id="oldworld" style="height: 616px;">
+    	<div class="credit">
+    		jung von matt
+   		</div>
+        <a href="oldworld.html"><h2 style="font-size: 146.889px;">ergo</h2></a>
+        <a href="oldworld.html"><img src="images/teaser_oldworld.jpg"></a>
+    </div>
+	    
+    <div class="work" id="vaterundsohn" style="height: 616px;">
+    	<div class="credit">
+    		jung von matt
+   		</div>
+        <a href="vaterundsohn.html"><h2 style="font-size: 146.889px;">otto</h2></a>
+        <a href="vaterundsohn.html"><img src="images/teaser_vaterundsohn.jpg"></a>
+    </div>
+    
+    <div class="work" id="man_tge" style="height: 616px;">
+    	<div class="credit">
+    		jung von matt
+   		</div>
+        <a href="man_tge.html"><h2 style="font-size: 146.889px;">man</h2></a>
+        <a href="man_tge.html"><img src="images/man_tge_teaser.jpg"></a>
+    </div>
+    
+    <!--div class="work" id="swisslife">
+    	<div class="credit">
+    		jung von matt
+   		</div>
+        <a href="swisslife_printad.html"><h1>swiss life</h1></a>
+        <a href="swisslife_printad.html"><img src="images/swisslife_teaser.jpg"></a>
+    </div-->
+    
+    <div class="work" id="ewi" style="height: 616px;">
+    	<div class="credit">
+    		jung von matt
+   		</div>
+        <a href="ewieeinfach.html"><h1 style="font-size: 106.613px;">e wie<br>einfach</h1></a>
+        <a href="ewieeinfach.html"><img src="images/teaser_ewi.jpg"></a>
+    </div>
+
+</div>
+
+<script src="js/jquery.fittext.js"></script>
+<script type="text/javascript">
+	$("#home").fitText(0.81, { minFontSize: '20px', maxFontSize: '350px' });
+	$(".work h1").fitText(0.62, { minFontSize: '30px', maxFontSize: '500px' });
+	$(".work h2").fitText(0.45 , { minFontSize: '30px', maxFontSize: '500px' });
+	$("#contact h1").fitText(0.80, { minFontSize: '140px', maxFontSize: '350px' });
+	$("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
+</script>
+
+
+<iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;"></iframe><div id="GOOGLE_INPUT_CHEXT_FLAG" style="display: none;" input="" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:true,&quot;ss&quot;:true}"></div></body>

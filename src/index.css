@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+box-sizing: border-box;
+padding-top: 80px;
+padding-bottom: 80px;
+font-size: 16px;
+line-height: 1.5;
+color: #555;
+text-align: center;
+background-color: #fff;
+border-bottom: 1px solid #e5e5e5;
+<head>
+<style type="text/css">
+#header{
+position: relative; text-align: center; width: 900px; margin: auto; height: 200px;
+background-image: url(image.png); }
+body {
+font: 16px "Carnivalee Freakshow"; margin: auto; position: relative; width: 900px; height: auto; background: url(images/fondpage.png) repeat-x center; }
+#boite1 {
+position: relative; margin: auto; margin-left: 20px; height: auto; width: 643px; float:left;
+background-image: url(images/catalog.png); }
+#boite2 {
+position: relative; margin-left: 20px; height: 28px; width: 323px; float:left;
+background-image: url(images/bottom2.png); }
+#footer {
+font-size: 11px Arial, sans-serif; line-height: 14px; position: relative; width: 900px; height: 80px;
+background-image: url(images/piedpage.png) no-repeat center; }
+</style>
+...
+</head>
+<body>
+.logo {
+  background: left / cover url('/media/examples/puppy-header-logo.jpg');
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
+  color: #ff0083;
+  text-shadow: #000 2px 2px 0.2rem;
+}
+
+header > h1 {
+  margin-bottom: 0;
+}
+
+header > time {
+  font: italic 0.7rem sans-serif;
+}

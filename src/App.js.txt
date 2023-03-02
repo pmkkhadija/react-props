@@ -1,0 +1,14 @@
+import React from "react";
+const App = () => {
+ return (
+   <>
+     <h2>Hello from my first component !!</h2>
+   </>
+ );
+};
+export default App;
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+const rootElement = document.getElementById("root");//We call this a “root” DOM node because everything inside it will be managed by React DOM.
+ReactDOM.render(<App />,rootElement);
