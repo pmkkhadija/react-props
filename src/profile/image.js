@@ -1,1 +1,0 @@
-<img src='./téléchargement/image.pgn'/>

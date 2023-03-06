@@ -40,18 +40,10 @@ const App = () => (
       <profession profession="doctor" /> {/* 💥 "I am the King" is the prop value*/}
     </div>
   );
-  const fullname = props => {
-      return   img;
-     };
-     console.log(props.children)
- };
+  
 );
 export default App;
 import PropTypes from "prop-types";
-profilecomponent.propTypes = {
-  anyProp: PropTypes.any,
-  booleanProp: PropTypes.bool,
-  numberProp: PropTypes.number,
+Profilecomponent.propTypes = {
   stringProp: PropTypes.string,
-  functionProp: PropTypes.func
  };

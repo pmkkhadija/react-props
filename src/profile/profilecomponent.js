@@ -1,4 +1,5 @@
 import React from "react";
+import '.profilecomponent.css'
 function profilecomponent(params) {
     
 
@@ -7,7 +8,14 @@ function fullname (props) {
    }
    const fullname = () => {
     return (
-      <div style={{ height: '10%' }}>
+      <div style={{ 
+        height: '10%' ,
+        color: 'black',
+        textalign: 'right',
+        padding: 32,
+        borderbottom: 'solid 3px black',
+        }}
+        >
         <fullname name="maryam khadija" /> 
         <fullname name=" isra muhammad" /> 
       </div>
@@ -19,7 +27,14 @@ function fullname (props) {
    }
    const App = () => {
     return (
-      <div>
+      <div style={{ 
+        height: '10%' ,
+        color: 'black',
+        textalign: 'right',
+        padding: 32,
+        borderbottom: 'solid 3px black',
+        }}
+      >
         <bio bio="i love football" />
         <bio bio="I am the King" /> 
       </div>
@@ -31,14 +46,21 @@ function fullname (props) {
    
    const profession = () => {
     return (
-      <div style={divStyle} >
-        <profession profession="psycologue" /> {/* 💥 "world" is the prop value*/}
-        <profession profession="doctor" /> {/* 💥 "I am the King" is the prop value*/}
+      <div style={{ 
+        height: '10%' ,
+        color: 'black',
+        textalign: 'right',
+        padding: 32,
+        borderbottom: 'solid 3px black',
+        }}
+       >
+        <profession profession="psycologue" />
+        <profession profession="doctor" />
       </div>
     );
     const fullname = props => {
         return   {props.children} 
-        <img> src={photos} alt=" profilecomponent"
+        <img> src={photos} alt=" profilecomponent" </img>
         ;
        };
    };
@@ -48,9 +70,5 @@ function fullname (props) {
  version: "16"
 };
 profilecomponent.propTypes = {
- anyProp: PropTypes.any,
- booleanProp: PropTypes.bool,
- numberProp: PropTypes.number,
- stringProp: PropTypes.string,
- functionProp: PropTypes.func
+ 
 };
