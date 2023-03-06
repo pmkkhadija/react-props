@@ -70,5 +70,5 @@ function fullname (props) {
  version: "16"
 };
 profilecomponent.propTypes = {
- 
+  stringProp: PropTypes.string,
 };
